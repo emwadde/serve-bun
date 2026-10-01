@@ -1,0 +1,21 @@
+{
+  "name": "serve-bun",
+  "version": "1.0.0",
+  "description": "Single-file static file server for Bun with a clean listing UI, range requests and optional Basic auth.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "serve-bun": "./serve-bun.ts"
+  },
+  "files": [
+    "serve-bun.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "bun",
+    "serve",
+    "static",
+    "file-server",
+    "http-server"
+  ]
+}
